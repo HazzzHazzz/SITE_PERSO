@@ -1,0 +1,283 @@
+/*
+POLICES
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Abril Fatface', cursive;
+*/
+
+/*GENERAL*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+    background-color: #EFFBFF;
+}
+
+a {
+    color: #E70739;
+}
+
+a:hover {
+    color: #FFBD4F;
+    text-decoration: none;
+}
+
+/*NAV*/
+
+
+nav ul {
+    text-align: left;
+}
+
+.navbar.navbar-2 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+#accroche {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    margin-top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #183152;
+    text-align: center;
+}
+
+header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #320E15;
+    text-align: center;
+}
+
+header img {
+    padding-top: 130px;
+    width: 80px;
+    height: auto;
+}
+
+/*PRESENTATION*/
+
+.articles_presentation {
+    display: flex;
+    justify-content: center;
+}
+
+#presentation article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFBD4F;
+    padding: 20px;
+    margin-top: 30px;
+    
+    border-radius: 2%;
+    opacity: 0;
+}
+
+#presentation article img {
+    width: 80px;
+    padding-bottom: 20px;
+}
+
+#presentation h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+#presentation p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+/*CV*/
+
+#cv {
+    margin-top: 350px;
+}
+
+#formations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles_formations {
+    display: flex;
+    justify-content: center;
+}
+
+#formations article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 3px solid #FFBD4F;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+
+#formations img {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+#experiences {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+}
+
+#experiences article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    padding: 0px 50px;
+}
+
+#cv h2 {
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #FFBD4F;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: 
+}
+
+#cv h3 {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#cv h3 a {
+    font-size: 0.9rem;
+}
+
+#cv p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+
+#cv a {
+    font-size: 0.8rem;
+}
+
+/*PRESENTATION*/
+
+#projets_web {
+    margin: 350px auto;
+    padding: 0px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#projets_web p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+#projets_web h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+#projets_web ul li {
+    font-size: 0.8rem;
+}
+
+/*CONTACT*/
+
+#contact {
+    font-size: 0.8rem;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact article p {
+    text-align: center;
+}
+
+/*MEDIA QUERIES*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    header h1 {
+        margin-top: 250px;
+    }
+    
+    #projets_web {
+    border-radius: 5%;
+    border: 3px solid #FFBD4F;
+    }
+    
+    #experiences article {
+    border-left: 8px solid #FFBD4F;
+    border-right: 8px solid #FFBD4F;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #projets_web {
+    border-radius: 0%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #projets_web {
+    border-radius: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
